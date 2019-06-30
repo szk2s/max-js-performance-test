@@ -1,0 +1,12 @@
+{
+  "name": "max-js-performance-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/szk2s/max-js-performance-test.git",
+  "author": "szk2s <suzukisjss@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tdd-max": "^1.0.3",
+    "vega": "^5.4.0"
+  }
+}
