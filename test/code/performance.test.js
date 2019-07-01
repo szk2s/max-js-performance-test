@@ -51,6 +51,14 @@ module.exports = {
     results.midi = elapsedTimes;
     renderLatencies(elapsedTimes, `${exportDir}/midi-performance.svg`);
   },
+  *testJweb(maxAPI) {
+    maxAPI.outlet({ performance_tester: { inlet0: 'jweb' } });
+    const { outlet0 } = yield;
+    const elapsedTimes = Object.values(outlet0);
+    validate(elapsedTimes);
+    results.jweb = elapsedTimes;
+    renderLatencies(elapsedTimes, `${exportDir}/jweb-performance.svg`);
+  },
   *testCollectScores(_) {
     const hasAllProperty =
       results.midi && results.js && results.udp && results.send && results.node;
