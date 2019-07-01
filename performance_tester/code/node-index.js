@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 const maxAPI = require('max-api');
 const { MESSAGE_TYPES } = maxAPI
 

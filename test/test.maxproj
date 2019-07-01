@@ -2,7 +2,7 @@
 	"name" : "test",
 	"version" : 1,
 	"creationdate" : 3642055787,
-	"modificationdate" : 3642056307,
+	"modificationdate" : 3644822312,
 	"viewrect" : [ 0.0, 44.0, 361.0, 533.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -13,17 +13,16 @@
 			"test.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
-				"toplevel" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/repos/tdd-max/boilerplate/test",
-					"projectrelativepath" : "."
-				}
-
+				"toplevel" : 1
 			}
 
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"other" : 		{
 
 		}
 
@@ -34,6 +33,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/repos/max-js-performance-test/performance_tester",
+			"projectrelativepath" : "../performance_tester",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 0
+		}
 
 	}
 ,
