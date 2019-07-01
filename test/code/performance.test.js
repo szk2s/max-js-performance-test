@@ -60,9 +60,6 @@ module.exports = {
     renderLatencies(elapsedTimes, `${exportDir}/jweb-performance.svg`);
   },
   *testCollectScores(_) {
-    const hasAllProperty =
-      results.midi && results.js && results.udp && results.send && results.node;
-    if (!hasAllProperty) return;
     const scores = Object.keys(results).reduce((acc, objectName) => {
       const elapsedTimes = results[objectName];
       const latencies = elapsedTimes.map((actualTime, idx) => actualTime - idx);
