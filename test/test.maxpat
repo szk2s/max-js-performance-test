@@ -101,7 +101,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-22",
-					"items" : [ "IAC Driver IAC Bus 1", ",", "from Max 1", ",", "from Max 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "MIDI Touchbar Surface", ",", "MIDI Touchbar User", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -592,7 +592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 248.0, 149.0, 92.0, 22.0 ],
-					"text" : "started"
+					"text" : "terminated"
 				}
 
 			}
@@ -802,22 +802,22 @@
 			}
 , 			{
 				"name" : "performance_tester.maxpat",
-				"bootpath" : "~/repos/max-js-performance-test/test/patchers",
-				"patcherrelativepath" : "./patchers",
+				"bootpath" : "~/repos/max-js-performance-test/performance_tester/patchers",
+				"patcherrelativepath" : "../performance_tester/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "js-index.js",
-				"bootpath" : "~/repos/max-js-performance-test/test/code",
-				"patcherrelativepath" : "./code",
+				"bootpath" : "~/repos/max-js-performance-test/performance_tester/code",
+				"patcherrelativepath" : "../performance_tester/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "node-index.js",
-				"bootpath" : "~/repos/max-js-performance-test/test/code",
-				"patcherrelativepath" : "./code",
+				"bootpath" : "~/repos/max-js-performance-test/performance_tester/code",
+				"patcherrelativepath" : "../performance_tester/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
