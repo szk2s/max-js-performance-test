@@ -6,7 +6,7 @@
   "author": "szk2s <suzukisjss@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "simple-statistics": "^7.0.2",
     "tdd-max": "^1.0.3",
     "vega": "^5.4.0"
